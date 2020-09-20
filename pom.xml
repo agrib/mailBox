@@ -6,7 +6,13 @@
 
     <groupId>com.agbansal</groupId>
     <artifactId>mailBox</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0</version>
+    <modules>
+        <module>auth-service</module>
+        <module>service-registry</module>
+        <module>profile-service</module>
+    </modules>
     <name>mailBox</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
